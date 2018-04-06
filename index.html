@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <!-- Wyświetlanie na mobilnych urządzeniach -->
     <meta name="viewport" content="width=device-width">
@@ -12,28 +13,39 @@
     <!-- Czcionki -->
     <link rel="fonts" href="https://fonts.googleapis.com/css?family=Concert+One">
     <!-- Ikonka -->
-    <link rel="icon" href="favicon/favicon%20(1).ico"> 
+    <link rel="icon" href="favicon/favicon%20(1).ico">
 </head>
 
-   
-   
+
+
 <body>
     <header>
         <img src="images/front-end-development1.png" alt="frontEndDev">
     </header>
     <nav>
-        <li><a href="#">Home Page</a></li><li><a href="#">O mnie</a></li><li><a href="#">Technologie</a></li><li><a href="#">Kontakt</a></li>
+        <ul>
+            <li><a href="#">Home Page</a></li>
+            <li><a href="#">O mnie</a></li>
+            <li><a href="#">Technologie</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
     </nav>
     <section>
-        <p><img src="images/mojefoto.jpg" alt="Jacek Witkowski-zdjęcie">
-           Jacek Witkowski<br>
-           Front-End Developer 
+        <p>
+        <img src="images/mojefoto.jpg" alt="Jacek Witkowski-zdjęcie"> Jacek Witkowski<br> Front-End Developer
         </p>
     </section>
     <footer>
-       <p>Designed by Jacek Witkowski</p>
-        
+        <p>
+        W przypadku zainteresowania zostaw do mnie swój adres mailowy:
+        </p>
+        <form action="https://formspree.io/jacek_witkowski@interia.pl" method="post">
+        <label for="e-mail"></label><br/>
+        <input type="text" textarea maxlength="50" name="e-mail" id="e-mail">
+        <input type="submit" value="wyślij">
+        </form>
     </footer>
 
 </body>
+
 </html>
